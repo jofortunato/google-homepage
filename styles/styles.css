@@ -59,10 +59,20 @@ main {
 }
 
 .search-bar{
-    background-color: blue;
-    width: 400px;
-    height: 70px;
-    opacity: 0.5;
+
+    width: 584px;
+    height: 44px;
+    margin-top: 6px;
+    border-style: solid;
+    border: 1px solid #dfe1e5;;
+    border-radius: 24px;
+    box-shadow: none;
+}
+
+.search-bar:hover{
+
+    border-color: rgba(223,225, 229,0);
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
 .search-btn {
@@ -78,6 +88,7 @@ main {
     height: 70px;
     opacity: 0.5;
 }
+
 
 footer {
     position: fixed;
