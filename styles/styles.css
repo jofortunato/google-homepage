@@ -3,27 +3,47 @@ nav {
     padding-top: 15px;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+   /* display: block; /* remove extra space below image */
+}
+
 .header {
     margin-left: auto;
     margin-right: 0;
-    padding-right: 30px;
-    width: 25%;
+    padding-right: 25px;
+    width: 190px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
+.header-link:hover {
+    text-decoration: underline;
+    color: rgb(99, 99, 99);
+    
+}
+
 .header-link {
-    font-family: 'Open Sans', sans-serif;   
+    font-family: "Arial", sans-serif;   
     text-decoration: none;
     font-size: 13px;
     color: black;
 
 }
 
-#more-products-link {
+.header-bullet-image {
     height: 30px;
     width: 30px;
-    opacity: 1;
 }
+
+#more-products-link {
+    opacity: 0.55;
+}
+
+#more-products-link:hover {
+    opacity: 0.85;
+}
+
