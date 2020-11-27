@@ -19,11 +19,6 @@ img{
     align-items: center;
 }
 
-.header-link:hover {
-    text-decoration: underline;
-    color: rgb(99, 99, 99);
-    }
-
 a, p, button{
     font-family: "Arial", sans-serif; 
     text-decoration: none;
@@ -43,9 +38,19 @@ a, p, button{
     opacity: 0.55;
 }
 
-#more-products-link:hover {
+#more-products-link:hover, #more-products-link:focus {
     opacity: 0.85;
 }
+
+.header-image-link:focus {
+    outline: none;
+}
+
+.header-link:hover, .header-link:focus {
+    text-decoration: underline;
+    color: rgb(99, 99, 99);
+    outline: none;
+    }
 
 main {
     margin-top: 110px;
