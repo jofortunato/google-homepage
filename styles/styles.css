@@ -25,10 +25,13 @@ img{
     color: rgb(99, 99, 99);
     }
 
-.header-link {
-    font-family: "Arial", sans-serif;   
+a, p{
+    font-family: "Arial", sans-serif; 
     text-decoration: none;
     font-size: 13px;
+}
+
+.header-link {  
     color: black;
 }
 
@@ -101,5 +104,49 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding-bottom: 15px;
+    background-color: rgb(242, 242, 242);
+}
+
+.location-footer {
+    padding: 13px 0;
+    margin-left: 30px;
+    border-top: 1px solid rgb(218, 220, 224);
+}
+
+.main-footer {
+    padding: 13px 0 13px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid rgb(218, 220, 224);
+}
+
+.lh-footer {
+    width: 360px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rh-footer {
+    width: 215px;
+    margin-right: 16px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.footer-font{
+    color: rgb(112, 117, 122);
+    font-size: 14px;
+}
+
+
+.footer-link:hover {
+    text-decoration: underline;
 }
