@@ -36,24 +36,24 @@
         <div class="google-logo">
           <img src="images/google-logo.png" alt="Google logo"/>
         </div>
-
-        <div class="search-bar">
-          <div class="glass-img">
-            <img src="images/magnifying-glass.png" alt="" />
+        <form id="search-form">
+          <div class="search-bar">
+            <div class="glass-img">
+              <img src="images/magnifying-glass.png" alt="" />
+            </div>
+            <div class="input-search-bar">
+              <input type="text" class="search-input" form autofocus="True">  
+            </div>
+            <div class="voice-img">
+              <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="" />
+            </div>
           </div>
-          <div class="input-search-bar">
-            <input type="text" class="search-input" autofocus="True">  
-          </div>
-          <div class="voice-img">
-            <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="" />
-          </div>
-        </div>
 
-        <div class="search-btn">
-          <div class="google-search-btn"></div>
-          <div class="feeling-lucky-btn"></div>
-        </div>
-
+          <div class="search-btn">
+            <button form="search-form">Google Search</button>
+            <button form="search-form">I'm Feeling Lucky</button>
+          </div>
+      </form>
         <div class="language-msg"></div>
       </main>
 
