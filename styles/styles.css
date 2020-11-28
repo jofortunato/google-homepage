@@ -281,6 +281,38 @@ footer {
   justify-content: space-evenly;
 }
 
+/* Search Type */
+
+.search-type {
+  padding-left: 169px;
+  margin-top: 25px;
+  font-size: 14px;
+  color: rgb(95, 99, 104);
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.search-type-details {
+  padding: 0 12px 12px 10px;
+  margin: 0 1px 0 1px;
+  vertical-align: middle;
+}
+
+#search-all {
+  color: #1a73e8;
+  border-bottom: 3px solid #1a73e8;
+}
+
+#search-settings {
+  margin-left: 80px;
+}
+
+#safe-search {
+  margin-left: 400px;
+}
+
 /* Footer */
 
 .results-footer {
@@ -297,4 +329,33 @@ footer {
 
 #results-footer-learn-more {
   color: rgb(80, 80, 80);
+}
+
+/* Google Fonts Icons */
+
+.material-icons-outlined.md-18 {
+  font-size: 18px;
+}
+.material-icons-outlined.md-24 {
+  font-size: 24px;
+}
+.material-icons-outlined.md-36 {
+  font-size: 36px;
+}
+.material-icons-outlined.md-48 {
+  font-size: 48px;
+}
+
+.material-icons-outlined.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons-outlined.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons-outlined.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+.material-icons-outlined.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
 }
