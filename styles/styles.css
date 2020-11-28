@@ -227,6 +227,60 @@ footer {
 ========== Search Results Page ==================
 ===============================================*/
 
+/*Navigation Bar*/
+
+#results-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0 0 0;
+}
+
+#results-google-logo {
+  height: 30px;
+  margin: 3px 45px 0 28px;
+  flex-shrink: 1;
+}
+
+#results-search-form {
+  max-width: 692px;
+  flex: 1 1 692px;
+}
+
+#results-search-bar {
+  max-width: 100%;
+  margin: 0;
+}
+
+#results-search-bar:hover {
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+#results-search-input {
+  margin-left: 15px;
+}
+
+#results-voice-img {
+  margin-left: auto;
+}
+
+#results-glass-img {
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 18px;
+}
+
+#results-rh-nav {
+  margin-left: 450px;
+  margin-right: 20px;
+  width: 100px;
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+}
+
 /* Footer */
 
 .results-footer {
