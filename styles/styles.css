@@ -238,8 +238,8 @@ footer {
 }
 
 #results-google-logo {
-  height: 30px;
-  margin: 3px 45px 0 28px;
+  height: 33px;
+  margin: 3px 45px 0 24px;
   flex-shrink: 1;
 }
 
@@ -273,7 +273,7 @@ footer {
 }
 
 #results-rh-nav {
-  margin-left: 450px;
+  margin-left: 400px;
   margin-right: 20px;
   width: 100px;
   display: flex;
