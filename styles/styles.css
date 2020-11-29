@@ -411,6 +411,24 @@ i {
   color: rgb(32, 33, 36);
 }
 
+.page-nav-nums {
+  margin: 20px auto 10px auto;
+  max-width: 303px;
+  display: grid;
+  grid-template-columns: 28px repeat(10, 20px) 45px 30px;
+  grid-template-rows: 40px 16px;
+}
+
+.nav-num {
+  color: rgb(66, 133, 244);
+  margin: auto;
+}
+
+.nav-num:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Footer */
 
 .results-footer {
