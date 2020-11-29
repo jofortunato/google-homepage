@@ -235,6 +235,9 @@ footer {
 ===============================================*/
 
 /*Navigation Bar*/
+#search-results-google-page {
+  min-width: 1261px;
+}
 
 #results-navbar {
   display: flex;
@@ -280,7 +283,7 @@ footer {
 }
 
 #results-rh-nav {
-  margin-left: 400px;
+  margin-left: auto;
   margin-right: 20px;
   width: 100px;
   display: flex;
@@ -318,7 +321,7 @@ footer {
 }
 
 #safe-search {
-  margin-left: 400px;
+  margin: 0 30px 0 auto;
 }
 
 i {
