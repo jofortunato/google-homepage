@@ -63,7 +63,7 @@ nav {
 
 /*Main Content*/
 
-main {
+.main-content {
   margin-top: 110px;
   width: 100%;
 }
@@ -259,7 +259,7 @@ footer {
 }
 
 #results-search-input {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 #results-voice-img {
@@ -298,6 +298,7 @@ footer {
   padding: 0 12px 12px 10px;
   margin: 0 1px 0 1px;
   vertical-align: middle;
+  line-height: 16px;
 }
 
 #search-all {
@@ -311,6 +312,19 @@ footer {
 
 #safe-search {
   margin-left: 400px;
+}
+
+i {
+  vertical-align: text-bottom;
+}
+
+/* Search Results Main Content */
+
+.search-results {
+  width: 652px;
+  height: 200px;
+  margin: 10px 0 0 170px;
+  border: 1px dashed grey;
 }
 
 /* Footer */
