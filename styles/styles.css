@@ -371,6 +371,34 @@ i {
   line-height: 20px;
   margin-top: 4px;
 }
+
+.people-also-search {
+  margin: 0 0 20px 10px;
+  padding: 15px;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.also-title {
+  color: rgba(0, 0, 0, 0.57);
+  margin-bottom: 4px;
+}
+
+.also-suggestions {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.rh-also-suggestions {
+  margin-left: 20px;
+}
+.also-tags {
+  color: #1a0dab;
+  line-height: 24px;
+}
 /* Footer */
 
 .results-footer {
