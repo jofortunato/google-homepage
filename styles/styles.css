@@ -5,10 +5,17 @@ img {
 
 a,
 p,
-button {
+button,
+span {
   font-family: "Arial", sans-serif;
   text-decoration: none;
   font-size: 13px;
+}
+
+h3 {
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 strong {
@@ -322,11 +329,45 @@ i {
 
 .search-results {
   width: 652px;
-  height: 200px;
-  margin: 10px 0 0 170px;
-  border: 1px dashed grey;
+  margin: 10px 0 110px 170px;
+  /*border: 1px dashed grey;*/
 }
 
+.page-result {
+  margin: 0 0 20px 10px;
+}
+
+#no-results {
+  color: #70757a;
+  font-size: 14px;
+  margin: 0 0 20px 10px;
+}
+
+.page-url {
+  color: #202124;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.page-cache {
+  color: #5f6368;
+}
+
+.page-tile {
+  margin: 2px 0 2px 0;
+  color: rgb(26, 13, 171);
+}
+
+.page-link:hover > h3 {
+  text-decoration: underline;
+}
+
+.page-content {
+  color: #4d5156;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 4px;
+}
 /* Footer */
 
 .results-footer {
