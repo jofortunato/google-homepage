@@ -399,6 +399,18 @@ i {
   color: #1a0dab;
   line-height: 24px;
 }
+
+.search-related {
+  margin-left: 20px;
+}
+
+.search-related-title {
+  font-family: "Google Sans", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgb(32, 33, 36);
+}
+
 /* Footer */
 
 .results-footer {
